@@ -36,7 +36,7 @@ jobs:
         uses: nrfconnect/action-checkout-west-update@main
 
       - name: cache-pip
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-doc-pip
